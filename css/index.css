@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+}
+/* header */
+
+#header{
+    background: url(/img/1.jpg);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.header-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.header-top .logo{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.header-top .nav-top{
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    align-items: center;
+    width: 45%;
+
+}
+.header-top a{
+    text-decoration: none;
+    font-size:30px; 
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+     
+}
+.header-top a ul{
+    list-style: none;
+    position: absolute;
+    background: black;
+    padding: 20px 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: 100%;
+    line-height: 60px;
+    display: none;
+    color: white;
+}
+.header-top a ul li{
+    padding: 10px;
+}
+.header-top a:first-child{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding:20px 10px;
+}
+.header-top a:nth-child(4){
+    position: relative;
+}
+.header-top a:nth-child(4):hover  ul{
+    display: block;
+}
+.header-top a:nth-child(4) ul li:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.header-top a:not(:first-child):hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding:20px 10px;
+}
+.header-mid{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.header-mid h1{
+    font-size: 60px;
+}
+.header-mid p{
+    padding: 0 30%;
+    font-size: 30px;
+}
+.header-mid a{
+    text-decoration: none;
+    color: white;
+    border:solid 2px white;
+    border-radius: 7px;
+    font-size: 30px;
+    padding: 10px 5px;
+    margin: 40px 0;
+}
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.header-bottom a{
+    border-radius: 50px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 100px 20px;
+}
+
+#welcome{
+    text-align: center;
+}
+#welcome h2{
+    font-size: 60px;
+}
+#welcome p{
+    text-align: center;
+    justify-content: center;
+    width: 80vw;
+    padding-left: 320px;
+}
+#welcome img{
+    width: 80%;
+    padding-top: 5px;
+}
+
+
+#What-we-do{
+    text-align: center;
+    
+}
+.to-me{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.to-me img{
+    border-radius: 50%;
+}
+.save{
+    width: 20vw;
+    height: 45%;
+    padding: 20px;
+}
+.to-me h4{
+    font-size: 30px;
+}
+#What-we-do h2{
+    font-size: 60px;
+    padding-top: 5rem;
+}
+
+.Statistics{
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.Statistics-kill img{
+   width: 100%;
+   height: 80vh;
+}
+.div-Statistics{
+    position:absolute;
+    bottom: 70%;
+    color: white;
+    font-size: 50px;
+    left: 35%;
+}
+.div-tow-Statistics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    bottom: 350px;
+    color: white;
+}
+.div-tow-Statistics h4{
+    font-size: 80px;
+    margin: 0%;
+}
+.div-tow-Statistics p{
+    font-size: 25px;
+}
