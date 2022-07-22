@@ -33,7 +33,7 @@ body {
     position: absolute;
     top: 5px;
     left: 80px;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 10px;
 }
 .header-top .nav-top{
@@ -45,11 +45,13 @@ body {
     gap: 15px;
     align-items: center;
     width: 45%;
-
+}
+.menu{
+    display: none;
 }
 .header-top a{
     text-decoration: none;
-    font-size:30px; 
+    font-size:2 0px; 
     color: white;
     padding: 0 10px;
     cursor: pointer;
@@ -714,4 +716,15 @@ body {
     position: relative;
     left: 165px;
     bottom: 150px;
+}
+
+@media only screen and (max-width:992px) {
+    .header-top .nav-top{
+        display: none;
+    }
+    .menu{
+        color: white;
+        font-size: 30px;
+        
+    }
 }
